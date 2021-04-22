@@ -1,0 +1,34 @@
+{
+  "name": "jqdom",
+  "version": "0.0.1",
+  "description": "Backwards compatibility library to replace JQuery.",
+  "main": "dist/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c .tooling/rollup.config.js",
+    "watch": "rollup -c .tooling/rollup.config.js  --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sangles/JQDom.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "JQuery",
+    "Compatibility",
+    "Dom",
+    "HTML5",
+    "DomManipulation"
+  ],
+  "author": "Santiago Anglés",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sangles/JQDom/issues"
+  },
+  "homepage": "https://github.com/sangles/JQDom#readme"
+}
